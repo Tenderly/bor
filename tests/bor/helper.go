@@ -32,7 +32,7 @@ import (
 	"github.com/tenderly/bor/core/types"
 	"github.com/tenderly/bor/core/vm"
 	"github.com/tenderly/bor/crypto"
-	"github.com/tenderly/bor/crypto/secp256k1"
+	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/tenderly/bor/eth"
 	"github.com/tenderly/bor/eth/downloader"
 	"github.com/tenderly/bor/eth/ethconfig"
