@@ -19,11 +19,11 @@ package filters
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/go-ethereum/ethdb"
+	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/go-ethereum/rpc"
 )
 
 // BorBlockLogsFilter can be used to retrieve and filter logs.

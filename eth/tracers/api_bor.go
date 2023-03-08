@@ -4,15 +4,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/statefull"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/consensus/bor/statefull"
+	"github.com/tenderly/bor/go-ethereum/core"
+	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/go-ethereum/core/vm"
+	"github.com/tenderly/bor/go-ethereum/eth/tracers/logger"
+	"github.com/tenderly/bor/go-ethereum/internal/ethapi"
+	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/go-ethereum/rpc"
 )
 
 type BlockTraceResult struct {

@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/crypto"
 )
 
 // TenToTheFive - To be used while sorting bor logs

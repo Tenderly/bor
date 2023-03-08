@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/common/hexutil"
+	"github.com/tenderly/bor/go-ethereum/consensus"
+	"github.com/tenderly/bor/go-ethereum/core"
+	"github.com/tenderly/bor/go-ethereum/core/state"
+	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/go-ethereum/eth/downloader"
+	"github.com/tenderly/bor/go-ethereum/event"
+	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/go-ethereum/params"
 )
 
 // Backend wraps all methods required for mining. Only full node is capable

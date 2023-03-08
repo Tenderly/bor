@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/core"
+	"github.com/tenderly/bor/go-ethereum/core/bloombits"
+	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/go-ethereum/ethdb"
+	"github.com/tenderly/bor/go-ethereum/event"
+	"github.com/tenderly/bor/go-ethereum/rpc"
 )
 
 //go:generate mockgen -destination=../../eth/filters/IBackend.go -package=filters . Backend

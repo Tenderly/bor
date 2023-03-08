@@ -23,17 +23,17 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/common/math"
+	"github.com/tenderly/bor/go-ethereum/consensus"
+	"github.com/tenderly/bor/go-ethereum/consensus/ethash"
+	"github.com/tenderly/bor/go-ethereum/consensus/misc"
+	"github.com/tenderly/bor/go-ethereum/core/rawdb"
+	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/go-ethereum/core/vm"
+	"github.com/tenderly/bor/go-ethereum/crypto"
+	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/go-ethereum/trie"
 )
 
 // TestStateProcessorErrors tests the output from the 'core' errors

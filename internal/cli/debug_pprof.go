@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
+	"github.com/tenderly/bor/go-ethereum/internal/cli/flagset"
+	"github.com/tenderly/bor/go-ethereum/internal/cli/server/proto"
 )
 
 type DebugPprofCommand struct {

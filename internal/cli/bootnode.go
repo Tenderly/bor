@@ -11,13 +11,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/tenderly/bor/go-ethereum/cmd/utils"
+	"github.com/tenderly/bor/go-ethereum/crypto"
+	"github.com/tenderly/bor/go-ethereum/internal/cli/flagset"
+	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/go-ethereum/p2p/discover"
+	"github.com/tenderly/bor/go-ethereum/p2p/enode"
+	"github.com/tenderly/bor/go-ethereum/p2p/nat"
 
 	"github.com/mitchellh/cli"
 )

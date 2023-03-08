@@ -5,12 +5,12 @@ package cli
 import (
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state/pruner"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/internal/cli/server"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/core/state/pruner"
+	"github.com/tenderly/bor/go-ethereum/internal/cli/flagset"
+	"github.com/tenderly/bor/go-ethereum/internal/cli/server"
+	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/go-ethereum/node"
 
 	"github.com/mitchellh/cli"
 )

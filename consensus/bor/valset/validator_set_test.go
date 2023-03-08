@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gotest.tools/assert"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/crypto"
 )
 
 func NewValidatorFromKey(key string, votingPower int64) *Validator {

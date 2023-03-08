@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/network"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/common/network"
+	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/checkpoint"
 
 	"github.com/stretchr/testify/require"
 )

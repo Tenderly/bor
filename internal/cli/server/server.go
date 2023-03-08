@@ -21,25 +21,25 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"google.golang.org/grpc"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/consensus/beacon" //nolint:typecheck
-	"github.com/ethereum/go-ethereum/consensus/bor"    //nolint:typecheck
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/graphql"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/metrics/influxdb"
-	"github.com/ethereum/go-ethereum/metrics/prometheus"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/tenderly/bor/go-ethereum/accounts"
+	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
+	"github.com/tenderly/bor/go-ethereum/consensus/beacon" //nolint:typecheck
+	"github.com/tenderly/bor/go-ethereum/consensus/bor"    //nolint:typecheck
+	"github.com/tenderly/bor/go-ethereum/consensus/clique"
+	"github.com/tenderly/bor/go-ethereum/eth"
+	"github.com/tenderly/bor/go-ethereum/eth/tracers"
+	"github.com/tenderly/bor/go-ethereum/ethstats"
+	"github.com/tenderly/bor/go-ethereum/graphql"
+	"github.com/tenderly/bor/go-ethereum/internal/cli/server/proto"
+	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/go-ethereum/metrics/influxdb"
+	"github.com/tenderly/bor/go-ethereum/metrics/prometheus"
+	"github.com/tenderly/bor/go-ethereum/node"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/tenderly/bor/go-ethereum/eth/tracers/js"
+	_ "github.com/tenderly/bor/go-ethereum/eth/tracers/native"
 )
 
 type Server struct {

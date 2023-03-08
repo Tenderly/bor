@@ -3,9 +3,9 @@ package bor
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/span"
+	"github.com/tenderly/bor/go-ethereum/consensus/bor/clerk"
+	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/checkpoint"
+	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/span"
 )
 
 //go:generate mockgen -destination=../../tests/bor/mocks/IHeimdallClient.go -package=mocks . IHeimdallClient

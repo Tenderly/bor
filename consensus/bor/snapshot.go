@@ -3,14 +3,14 @@ package bor
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/valset"
+	"github.com/tenderly/bor/go-ethereum/consensus/bor/valset"
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/go-ethereum/ethdb"
+	"github.com/tenderly/bor/go-ethereum/params"
 )
 
 // Snapshot is the state of the authorization voting at a given point in time.

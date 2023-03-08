@@ -5,15 +5,15 @@ import (
 	"crypto/rand"
 	"math/big"
 
-	common "github.com/ethereum/go-ethereum/common"
-	core "github.com/ethereum/go-ethereum/core"
-	bloombits "github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	types "github.com/ethereum/go-ethereum/core/types"
-	ethdb "github.com/ethereum/go-ethereum/ethdb"
-	event "github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	rpc "github.com/ethereum/go-ethereum/rpc"
+	common "github.com/tenderly/bor/go-ethereum/common"
+	core "github.com/tenderly/bor/go-ethereum/core"
+	bloombits "github.com/tenderly/bor/go-ethereum/core/bloombits"
+	"github.com/tenderly/bor/go-ethereum/core/rawdb"
+	types "github.com/tenderly/bor/go-ethereum/core/types"
+	ethdb "github.com/tenderly/bor/go-ethereum/ethdb"
+	event "github.com/tenderly/bor/go-ethereum/event"
+	"github.com/tenderly/bor/go-ethereum/params"
+	rpc "github.com/tenderly/bor/go-ethereum/rpc"
 )
 
 type TestBackend struct {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/bor/go-ethereum/log"
 )
 
 // Command is the command to start the sever
