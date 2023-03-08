@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/internal/cli/server/proto"
+	"github.com/tenderly/bor/internal/cli/server/proto"
 
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )

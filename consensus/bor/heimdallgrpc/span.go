@@ -3,9 +3,9 @@ package heimdallgrpc
 import (
 	"context"
 
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/span"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/valset"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/consensus/bor/heimdall/span"
+	"github.com/tenderly/bor/consensus/bor/valset"
+	"github.com/tenderly/bor/log"
 
 	proto "github.com/maticnetwork/polyproto/heimdall"
 	protoutils "github.com/maticnetwork/polyproto/utils"

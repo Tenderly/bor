@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/cmd/utils"
-	"github.com/tenderly/bor/go-ethereum/consensus/ethash"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/consensus"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/rlp"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/rlp"
+	"github.com/tenderly/bor/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/consensus"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/valset"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/consensus/bor/valset"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/rpc"
 
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/xsleonard/go-merkle"

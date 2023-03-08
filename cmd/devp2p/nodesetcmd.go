@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/core/forkid"
-	"github.com/tenderly/bor/go-ethereum/p2p/enr"
-	"github.com/tenderly/bor/go-ethereum/params"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/core/forkid"
+	"github.com/tenderly/bor/p2p/enr"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

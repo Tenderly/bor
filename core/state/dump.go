@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/rlp"
-	"github.com/tenderly/bor/go-ethereum/trie"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/rlp"
+	"github.com/tenderly/bor/trie"
 )
 
 // DumpConfig is a set of options to control what portions of the statewill be

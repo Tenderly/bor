@@ -29,14 +29,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/consensus"
-	"github.com/tenderly/bor/go-ethereum/consensus/ethash"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

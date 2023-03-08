@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/tenderly/bor/go-ethereum/accounts/abi"
+import "github.com/tenderly/bor/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -92,12 +92,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/tenderly/bor/go-ethereum"
-	"github.com/tenderly/bor/go-ethereum/accounts/abi"
-	"github.com/tenderly/bor/go-ethereum/accounts/abi/bind"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/event"
+	ethereum "github.com/tenderly/bor"
+	"github.com/tenderly/bor/accounts/abi"
+	"github.com/tenderly/bor/accounts/abi/bind"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

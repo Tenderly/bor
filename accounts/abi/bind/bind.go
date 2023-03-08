@@ -17,7 +17,7 @@
 // Package bind generates Ethereum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-ethereum Wiki page:
-// https://github.com/tenderly/bor/go-ethereum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// https://github.com/tenderly/bor/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -30,8 +30,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/abi"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/accounts/abi"
+	"github.com/tenderly/bor/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

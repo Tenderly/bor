@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus/bor"
+	"github.com/tenderly/bor/log"
 )
 
 var (

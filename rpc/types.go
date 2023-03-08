@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

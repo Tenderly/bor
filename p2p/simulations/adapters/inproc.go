@@ -24,13 +24,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/event"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/node"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/simulations/pipes"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/node"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/simulations/pipes"
+	"github.com/tenderly/bor/rpc"
 	"github.com/gorilla/websocket"
 )
 

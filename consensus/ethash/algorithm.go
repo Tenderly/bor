@@ -27,10 +27,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/bitutil"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/bitutil"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/log"
 	"golang.org/x/crypto/sha3"
 )
 

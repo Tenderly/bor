@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/event"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/simulations/adapters"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

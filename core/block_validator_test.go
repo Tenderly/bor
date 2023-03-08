@@ -23,16 +23,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/consensus"
-	"github.com/tenderly/bor/go-ethereum/consensus/beacon"
-	"github.com/tenderly/bor/go-ethereum/consensus/clique"
-	"github.com/tenderly/bor/go-ethereum/consensus/ethash"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/consensus/beacon"
+	"github.com/tenderly/bor/consensus/clique"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

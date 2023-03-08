@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil" //nolint:typecheck
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/core/state"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil" //nolint:typecheck
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/params"
 )
 
 func TestGenesisContractChange(t *testing.T) {

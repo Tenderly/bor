@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/les/utils"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/les/utils"
+	"github.com/tenderly/bor/rlp"
 )
 
 const (

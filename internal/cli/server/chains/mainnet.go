@@ -3,9 +3,9 @@ package chains
 import (
 	"math/big"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/params"
 )
 
 var mainnetBor = &Chain{

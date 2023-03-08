@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/ethdb"
+	"github.com/tenderly/bor/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

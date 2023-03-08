@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/cmd/utils"
-	"github.com/tenderly/bor/go-ethereum/crypto"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/crypto"
 	"github.com/google/uuid"
 	"gopkg.in/urfave/cli.v1"
 )

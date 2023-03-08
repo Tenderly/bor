@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

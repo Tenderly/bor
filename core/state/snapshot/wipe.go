@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/metrics"
 )
 
 // wipeKeyRange deletes a range of keys from the database starting with prefix

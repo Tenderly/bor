@@ -36,14 +36,14 @@ import (
 	"gonum.org/v1/gonum/stat"
 	"pgregory.net/rapid"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/core/state"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/event"
-	"github.com/tenderly/bor/go-ethereum/params"
-	"github.com/tenderly/bor/go-ethereum/trie"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/trie"
 )
 
 var (

@@ -33,7 +33,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/params"
 )
 
 var (

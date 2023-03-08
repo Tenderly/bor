@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/clerk"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/span"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus/bor"
+	"github.com/tenderly/bor/consensus/bor/clerk"
+	"github.com/tenderly/bor/consensus/bor/heimdall/checkpoint"
+	"github.com/tenderly/bor/consensus/bor/heimdall/span"
 )
 
 type mockHeimdall struct {

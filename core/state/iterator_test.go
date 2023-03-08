@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

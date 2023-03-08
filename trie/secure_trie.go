@@ -19,10 +19,10 @@ package trie
 import (
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/rlp"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

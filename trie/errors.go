@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

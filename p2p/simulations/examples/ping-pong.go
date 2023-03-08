@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/node"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/simulations"
-	"github.com/tenderly/bor/go-ethereum/p2p/simulations/adapters"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/node"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/simulations"
+	"github.com/tenderly/bor/p2p/simulations/adapters"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

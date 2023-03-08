@@ -30,17 +30,17 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/tracing"
-	"github.com/tenderly/bor/go-ethereum/consensus"
-	"github.com/tenderly/bor/go-ethereum/consensus/misc"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/state"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/event"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/params"
-	"github.com/tenderly/bor/go-ethereum/trie"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/tracing"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/consensus/misc"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/trie"
 )
 
 const (
@@ -1307,7 +1307,7 @@ func (w *worker) commit(ctx context.Context, env *environment, interval func(), 
 		}
 
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/tenderly/bor/go-ethereum/issues/24299
+		// https://github.com/tenderly/bor/issues/24299
 		env := env.copy()
 
 		block, err := w.engine.FinalizeAndAssemble(ctx, w.chain, env.header, env.state, env.txs, env.unclelist(), env.receipts)

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/flagset"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/server"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/server/proto"
-	"github.com/tenderly/bor/go-ethereum/node"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/internal/cli/flagset"
+	"github.com/tenderly/bor/internal/cli/server"
+	"github.com/tenderly/bor/internal/cli/server/proto"
+	"github.com/tenderly/bor/node"
 
 	"github.com/mitchellh/cli"
 	"github.com/ryanuber/columnize"

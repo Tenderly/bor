@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/p2p/enr"
+	"github.com/tenderly/bor/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

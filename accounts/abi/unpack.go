@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 var (

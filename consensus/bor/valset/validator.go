@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // Validator represets Volatile state for each Validator

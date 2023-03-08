@@ -19,9 +19,9 @@ package vm
 import (
 	"hash"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/math"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/log"
 )
 
 // Config are the configuration options for the Interpreter

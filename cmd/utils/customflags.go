@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/common/math"
+	"github.com/tenderly/bor/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

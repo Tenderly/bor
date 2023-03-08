@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/crypto"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

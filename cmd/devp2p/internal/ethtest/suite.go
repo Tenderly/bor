@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/eth/protocols/eth"
-	"github.com/tenderly/bor/go-ethereum/internal/utesting"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/eth/protocols/eth"
+	"github.com/tenderly/bor/internal/utesting"
+	"github.com/tenderly/bor/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

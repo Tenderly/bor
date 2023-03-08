@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 func TestPairingExpected(t *testing.T) {

@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/mclock"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/netutil"
+	"github.com/tenderly/bor/common/mclock"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/netutil"
 )
 
 const (

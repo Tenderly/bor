@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch

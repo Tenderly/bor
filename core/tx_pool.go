@@ -26,15 +26,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/prque"
-	"github.com/tenderly/bor/go-ethereum/consensus/misc"
-	"github.com/tenderly/bor/go-ethereum/core/state"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/event"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/metrics"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/prque"
+	"github.com/tenderly/bor/consensus/misc"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/metrics"
+	"github.com/tenderly/bor/params"
 )
 
 const (

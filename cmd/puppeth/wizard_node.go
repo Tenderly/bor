@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

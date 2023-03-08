@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/abi/bind"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/light"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/accounts/abi/bind"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/light"
+	"github.com/tenderly/bor/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -196,7 +196,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool, protocol int) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/tenderly/bor/go-ethereum/issues/20097 for more detail.
+	// See https://github.com/tenderly/bor/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

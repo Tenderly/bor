@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/signer/core/apitypes"
-	"github.com/tenderly/bor/go-ethereum/signer/fourbyte"
+	"github.com/tenderly/bor/signer/core/apitypes"
+	"github.com/tenderly/bor/signer/fourbyte"
 )
 
 func init() {

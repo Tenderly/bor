@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/tenderly/bor/go-ethereum/core/types"
+import "github.com/tenderly/bor/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

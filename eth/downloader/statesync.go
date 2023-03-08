@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/log"
 )
 
 // syncState starts downloading state with the given root hash.

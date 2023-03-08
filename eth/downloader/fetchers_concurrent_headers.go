@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/eth/protocols/eth"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/eth/protocols/eth"
+	"github.com/tenderly/bor/log"
 )
 
 // headerQueue implements typedQueue and is a type adapter between the generic

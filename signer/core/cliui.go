@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/console/prompt"
-	"github.com/tenderly/bor/go-ethereum/internal/ethapi"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/console/prompt"
+	"github.com/tenderly/bor/internal/ethapi"
+	"github.com/tenderly/bor/log"
 )
 
 type CommandlineUI struct {

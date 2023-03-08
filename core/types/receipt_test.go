@@ -23,10 +23,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/params"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rlp"
 )
 
 var (

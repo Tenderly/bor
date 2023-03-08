@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

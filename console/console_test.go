@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/consensus/ethash"
-	"github.com/tenderly/bor/go-ethereum/console/prompt"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/eth"
-	"github.com/tenderly/bor/go-ethereum/eth/ethconfig"
-	"github.com/tenderly/bor/go-ethereum/internal/jsre"
-	"github.com/tenderly/bor/go-ethereum/miner"
-	"github.com/tenderly/bor/go-ethereum/node"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/console/prompt"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/eth"
+	"github.com/tenderly/bor/eth/ethconfig"
+	"github.com/tenderly/bor/internal/jsre"
+	"github.com/tenderly/bor/miner"
+	"github.com/tenderly/bor/node"
 )
 
 const (

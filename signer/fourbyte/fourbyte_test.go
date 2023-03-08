@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/abi"
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/accounts/abi"
+	"github.com/tenderly/bor/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

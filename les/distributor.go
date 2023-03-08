@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/mclock"
-	"github.com/tenderly/bor/go-ethereum/les/utils"
+	"github.com/tenderly/bor/common/mclock"
+	"github.com/tenderly/bor/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

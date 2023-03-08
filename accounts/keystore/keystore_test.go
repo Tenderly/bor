@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/accounts"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/event"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/event"
 )
 
 var testSigData = make([]byte, 32)

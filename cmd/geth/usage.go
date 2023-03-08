@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/tenderly/bor/go-ethereum/cmd/utils"
-	"github.com/tenderly/bor/go-ethereum/internal/debug"
-	"github.com/tenderly/bor/go-ethereum/internal/flags"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/internal/debug"
+	"github.com/tenderly/bor/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

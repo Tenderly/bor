@@ -11,14 +11,14 @@ import (
 	grpc_net_conn "github.com/JekaMas/go-grpc-net-conn"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/eth/tracers"
-	"github.com/tenderly/bor/go-ethereum/eth/tracers/logger"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/server/pprof"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/server/proto"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/eth/tracers"
+	"github.com/tenderly/bor/eth/tracers/logger"
+	"github.com/tenderly/bor/internal/cli/server/pprof"
+	"github.com/tenderly/bor/internal/cli/server/proto"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
 )
 
 const chunkSize = 1024 * 1024 * 1024

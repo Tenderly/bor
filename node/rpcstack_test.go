@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/internal/testlog"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/internal/testlog"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/rpc"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"

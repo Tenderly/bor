@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/core"
+	"github.com/tenderly/bor/core"
 )
 
 //go:embed allocs

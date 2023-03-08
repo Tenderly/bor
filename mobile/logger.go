@@ -19,7 +19,7 @@ package geth
 import (
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 )
 
 // SetVerbosity sets the global verbosity level (between 0 and 6 - see logger/verbosity.go).

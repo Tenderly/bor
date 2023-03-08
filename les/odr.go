@@ -22,10 +22,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/mclock"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/light"
+	"github.com/tenderly/bor/common/mclock"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/light"
 )
 
 // LesOdr implements light.OdrBackend

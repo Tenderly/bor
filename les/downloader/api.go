@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum"
-	"github.com/tenderly/bor/go-ethereum/event"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

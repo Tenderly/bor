@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
 )
 
 // EventRecord represents state record

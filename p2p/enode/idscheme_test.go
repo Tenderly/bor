@@ -23,9 +23,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/p2p/enr"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/p2p/enr"
+	"github.com/tenderly/bor/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

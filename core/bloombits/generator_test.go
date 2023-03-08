@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

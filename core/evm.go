@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/consensus"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

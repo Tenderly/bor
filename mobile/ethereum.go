@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	"github.com/tenderly/bor/go-ethereum"
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor"
+	"github.com/tenderly/bor/common"
 )
 
 // Subscription represents an event subscription where events are

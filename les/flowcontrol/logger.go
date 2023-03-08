@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/mclock"
+	"github.com/tenderly/bor/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

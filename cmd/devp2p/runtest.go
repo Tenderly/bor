@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/tenderly/bor/go-ethereum/internal/utesting"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/cmd/devp2p/internal/v4test"
+	"github.com/tenderly/bor/internal/utesting"
+	"github.com/tenderly/bor/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

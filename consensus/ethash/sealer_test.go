@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/internal/testlog"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/internal/testlog"
+	"github.com/tenderly/bor/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

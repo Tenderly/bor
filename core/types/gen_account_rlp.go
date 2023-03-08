@@ -5,7 +5,7 @@
 
 package types
 
-import "github.com/tenderly/bor/go-ethereum/rlp"
+import "github.com/tenderly/bor/rlp"
 import "io"
 
 func (obj *StateAccount) EncodeRLP(_w io.Writer) error {

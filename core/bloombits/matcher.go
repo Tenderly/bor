@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/bitutil"
-	"github.com/tenderly/bor/go-ethereum/crypto"
+	"github.com/tenderly/bor/common/bitutil"
+	"github.com/tenderly/bor/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/mclock"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/p2p/discover/v5wire"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/enr"
+	"github.com/tenderly/bor/common/mclock"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/p2p/discover/v5wire"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/enr"
 )
 
 // readError represents an error during packet reading.

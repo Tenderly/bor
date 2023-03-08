@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

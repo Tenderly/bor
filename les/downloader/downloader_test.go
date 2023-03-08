@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/core/state/snapshot"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/eth/protocols/eth"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/event"
-	"github.com/tenderly/bor/go-ethereum/trie"
+	"github.com/tenderly/bor"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/state/snapshot"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/eth/protocols/eth"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

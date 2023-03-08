@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 type DynamicFeeTx struct {

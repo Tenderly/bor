@@ -7,10 +7,10 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/eth"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/node"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/eth"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/node"
 )
 
 var (

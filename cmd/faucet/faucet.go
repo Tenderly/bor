@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/accounts"
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/cmd/utils"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/eth/downloader"
-	"github.com/tenderly/bor/go-ethereum/eth/ethconfig"
-	"github.com/tenderly/bor/go-ethereum/ethclient"
-	"github.com/tenderly/bor/go-ethereum/ethstats"
-	"github.com/tenderly/bor/go-ethereum/les"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/node"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/nat"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/eth/downloader"
+	"github.com/tenderly/bor/eth/ethconfig"
+	"github.com/tenderly/bor/ethclient"
+	"github.com/tenderly/bor/ethstats"
+	"github.com/tenderly/bor/les"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/node"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/nat"
+	"github.com/tenderly/bor/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -470,7 +470,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/tenderly/bor/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/tenderly/bor/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

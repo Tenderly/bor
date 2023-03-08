@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 func TestInterfaceGetSet(t *testing.T) {

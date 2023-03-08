@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

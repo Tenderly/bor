@@ -26,13 +26,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/common/math"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/signer/core"
-	"github.com/tenderly/bor/go-ethereum/signer/core/apitypes"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/signer/core"
+	"github.com/tenderly/bor/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

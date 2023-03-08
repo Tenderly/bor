@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/core/state"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
-	"github.com/tenderly/bor/go-ethereum/eth/tracers/logger"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/tests"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/eth/tracers/logger"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

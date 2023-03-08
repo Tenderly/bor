@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/tenderly/bor/go-ethereum/accounts"
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/accounts/scwallet"
-	"github.com/tenderly/bor/go-ethereum/accounts/usbwallet"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/internal/ethapi"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/rpc"
-	"github.com/tenderly/bor/go-ethereum/signer/core/apitypes"
-	"github.com/tenderly/bor/go-ethereum/signer/storage"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/accounts/scwallet"
+	"github.com/tenderly/bor/accounts/usbwallet"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/internal/ethapi"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/rpc"
+	"github.com/tenderly/bor/signer/core/apitypes"
+	"github.com/tenderly/bor/signer/storage"
 )
 
 const (

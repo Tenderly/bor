@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/metrics"
 )
 
 func TestMain(m *testing.M) {

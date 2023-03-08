@@ -8,9 +8,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/flagset"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/server/proto"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/internal/cli/flagset"
+	"github.com/tenderly/bor/internal/cli/server/proto"
 )
 
 // ChainWatchCommand is the command to group the peers commands

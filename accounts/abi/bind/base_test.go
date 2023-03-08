@@ -23,14 +23,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum"
-	"github.com/tenderly/bor/go-ethereum/accounts/abi"
-	"github.com/tenderly/bor/go-ethereum/accounts/abi/bind"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor"
+	"github.com/tenderly/bor/accounts/abi"
+	"github.com/tenderly/bor/accounts/abi/bind"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

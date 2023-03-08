@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

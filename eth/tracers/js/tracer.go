@@ -28,14 +28,14 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	tracers2 "github.com/tenderly/bor/go-ethereum/eth/tracers"
-	"github.com/tenderly/bor/go-ethereum/eth/tracers/js/internal/tracers"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/crypto"
+	tracers2 "github.com/tenderly/bor/eth/tracers"
+	"github.com/tenderly/bor/eth/tracers/js/internal/tracers"
+	"github.com/tenderly/bor/log"
 	"gopkg.in/olebedev/go-duktape.v3"
 )
 

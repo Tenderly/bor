@@ -23,13 +23,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/tenderly/bor/go-ethereum/accounts"
-	"github.com/tenderly/bor/go-ethereum/accounts/external"
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/accounts/external"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/metrics"
 )
 
 var (

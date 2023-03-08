@@ -64,7 +64,7 @@ linters-settings:
     numbers: true
 
   goimports:
-    local-prefixes: github.com/tenderly/bor/go-ethereum
+    local-prefixes: github.com/tenderly/bor
   
   nestif:
     min-complexity: 5
@@ -137,12 +137,12 @@ linters-settings:
       printf:
         # Run `go tool vet help printf` to see available settings for `printf` analyzer.
         funcs:
-          - (github.com/tenderly/bor/go-ethereum/log.Logger).Trace
-          - (github.com/tenderly/bor/go-ethereum/log.Logger).Debug
-          - (github.com/tenderly/bor/go-ethereum/log.Logger).Info
-          - (github.com/tenderly/bor/go-ethereum/log.Logger).Warn
-          - (github.com/tenderly/bor/go-ethereum/log.Logger).Error
-          - (github.com/tenderly/bor/go-ethereum/log.Logger).Crit
+          - (github.com/tenderly/bor/log.Logger).Trace
+          - (github.com/tenderly/bor/log.Logger).Debug
+          - (github.com/tenderly/bor/log.Logger).Info
+          - (github.com/tenderly/bor/log.Logger).Warn
+          - (github.com/tenderly/bor/log.Logger).Error
+          - (github.com/tenderly/bor/log.Logger).Crit
 
 issues:
   exclude-rules:

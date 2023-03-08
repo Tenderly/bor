@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/eth/protocols/eth"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/rlpx"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/eth/protocols/eth"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/rlpx"
+	"github.com/tenderly/bor/rlp"
 )
 
 type Message interface {

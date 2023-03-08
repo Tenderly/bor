@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/common/math"
+	"github.com/tenderly/bor/common/math"
 )
 
 type testEncoder struct {

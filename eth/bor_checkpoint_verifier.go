@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/consensus/bor/heimdall/checkpoint"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/rpc"
 )
 
 type checkpointVerifier struct {

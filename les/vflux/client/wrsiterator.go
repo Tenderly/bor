@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/les/utils"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/nodestate"
+	"github.com/tenderly/bor/les/utils"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

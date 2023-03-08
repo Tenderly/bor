@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/metrics"
 )
 
 type (

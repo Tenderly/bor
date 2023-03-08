@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/common/network"
+	"github.com/tenderly/bor/common/network"
 )
 
 func CreateMockServer(config *Config) (*Server, error) {

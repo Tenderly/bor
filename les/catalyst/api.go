@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/beacon"
-	"github.com/tenderly/bor/go-ethereum/les"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/node"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/beacon"
+	"github.com/tenderly/bor/les"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/node"
+	"github.com/tenderly/bor/rpc"
 )
 
 // Register adds catalyst APIs to the light client.

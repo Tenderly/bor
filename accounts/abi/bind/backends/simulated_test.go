@@ -29,15 +29,15 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/tenderly/bor/go-ethereum"
-	"github.com/tenderly/bor/go-ethereum/accounts/abi"
-	"github.com/tenderly/bor/go-ethereum/accounts/abi/bind"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/leak"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor"
+	"github.com/tenderly/bor/accounts/abi"
+	"github.com/tenderly/bor/accounts/abi/bind"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/leak"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

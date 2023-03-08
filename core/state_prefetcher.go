@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/tenderly/bor/go-ethereum/consensus"
-	"github.com/tenderly/bor/go-ethereum/core/state"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

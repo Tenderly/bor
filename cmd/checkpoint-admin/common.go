@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/tenderly/bor/go-ethereum/accounts"
-	"github.com/tenderly/bor/go-ethereum/accounts/abi/bind"
-	"github.com/tenderly/bor/go-ethereum/accounts/external"
-	"github.com/tenderly/bor/go-ethereum/cmd/utils"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/contracts/checkpointoracle"
-	"github.com/tenderly/bor/go-ethereum/ethclient"
-	"github.com/tenderly/bor/go-ethereum/params"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/accounts/abi/bind"
+	"github.com/tenderly/bor/accounts/external"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/contracts/checkpointoracle"
+	"github.com/tenderly/bor/ethclient"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

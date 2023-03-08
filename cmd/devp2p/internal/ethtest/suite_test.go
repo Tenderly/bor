@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/eth"
-	"github.com/tenderly/bor/go-ethereum/eth/ethconfig"
-	"github.com/tenderly/bor/go-ethereum/internal/utesting"
-	"github.com/tenderly/bor/go-ethereum/node"
-	"github.com/tenderly/bor/go-ethereum/p2p"
+	"github.com/tenderly/bor/eth"
+	"github.com/tenderly/bor/eth/ethconfig"
+	"github.com/tenderly/bor/internal/utesting"
+	"github.com/tenderly/bor/node"
+	"github.com/tenderly/bor/p2p"
 )
 
 var (

@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/prque"
-	"github.com/tenderly/bor/go-ethereum/eth/protocols/eth"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/prque"
+	"github.com/tenderly/bor/eth/protocols/eth"
+	"github.com/tenderly/bor/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

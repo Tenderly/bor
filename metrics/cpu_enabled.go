@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

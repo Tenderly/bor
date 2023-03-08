@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/params"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

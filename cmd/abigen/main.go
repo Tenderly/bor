@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/abi"
-	"github.com/tenderly/bor/go-ethereum/accounts/abi/bind"
-	"github.com/tenderly/bor/go-ethereum/cmd/utils"
-	"github.com/tenderly/bor/go-ethereum/common/compiler"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/internal/flags"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/accounts/abi"
+	"github.com/tenderly/bor/accounts/abi/bind"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/common/compiler"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/internal/flags"
+	"github.com/tenderly/bor/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

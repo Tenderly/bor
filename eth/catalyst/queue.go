@@ -19,9 +19,9 @@ package catalyst
 import (
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/beacon"
-	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/beacon"
+	"github.com/tenderly/bor/core/types"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

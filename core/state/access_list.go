@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 type accessList struct {

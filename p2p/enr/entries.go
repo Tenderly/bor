@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/rlp"
 )
 
 // Entry is implemented by known node record entry types.

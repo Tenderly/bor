@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/consensus/ethash"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/params"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

@@ -11,11 +11,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/clerk"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/heimdall/span"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/consensus/bor/clerk"
+	"github.com/tenderly/bor/consensus/bor/heimdall/checkpoint"
+	"github.com/tenderly/bor/consensus/bor/heimdall/span"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/metrics"
 )
 
 var (

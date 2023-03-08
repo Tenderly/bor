@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 )
 
 type (

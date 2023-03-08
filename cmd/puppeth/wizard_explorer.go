@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

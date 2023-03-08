@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/rlp"
 )
 
 // EIP-8 test vectors.

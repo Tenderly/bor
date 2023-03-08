@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/p2p/netutil"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

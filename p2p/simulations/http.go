@@ -29,11 +29,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/event"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/simulations/adapters"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/simulations/adapters"
+	"github.com/tenderly/bor/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
 )

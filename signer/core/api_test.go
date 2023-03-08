@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/accounts"
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/internal/ethapi"
-	"github.com/tenderly/bor/go-ethereum/rlp"
-	"github.com/tenderly/bor/go-ethereum/signer/core"
-	"github.com/tenderly/bor/go-ethereum/signer/core/apitypes"
-	"github.com/tenderly/bor/go-ethereum/signer/fourbyte"
-	"github.com/tenderly/bor/go-ethereum/signer/storage"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/internal/ethapi"
+	"github.com/tenderly/bor/rlp"
+	"github.com/tenderly/bor/signer/core"
+	"github.com/tenderly/bor/signer/core/apitypes"
+	"github.com/tenderly/bor/signer/fourbyte"
+	"github.com/tenderly/bor/signer/storage"
 )
 
 //Used for testing

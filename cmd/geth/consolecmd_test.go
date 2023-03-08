@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/params"
 )
 
 const (

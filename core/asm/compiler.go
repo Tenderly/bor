@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/common/math"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
+	"github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/core/vm"
 )
 
 // Compiler contains information about the parsed source

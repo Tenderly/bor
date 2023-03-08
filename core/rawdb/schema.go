@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

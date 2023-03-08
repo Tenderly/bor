@@ -28,9 +28,9 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/tenderly/bor/go-ethereum/accounts"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

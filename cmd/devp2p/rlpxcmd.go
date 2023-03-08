@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/tenderly/bor/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/internal/utesting"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/rlpx"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/cmd/devp2p/internal/ethtest"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/internal/utesting"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/rlpx"
+	"github.com/tenderly/bor/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

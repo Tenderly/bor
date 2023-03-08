@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/crypto"
+	"github.com/tenderly/bor/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

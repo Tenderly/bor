@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/common/fdlimit"
-	"github.com/tenderly/bor/go-ethereum/internal/flags"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common/fdlimit"
+	"github.com/tenderly/bor/internal/flags"
+	"github.com/tenderly/bor/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

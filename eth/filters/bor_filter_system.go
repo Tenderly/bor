@@ -3,10 +3,10 @@ package filters
 import (
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/rpc"
 )
 
 func (es *EventSystem) handleStateSyncEvent(filters filterIndex, ev core.StateSyncEvent) {

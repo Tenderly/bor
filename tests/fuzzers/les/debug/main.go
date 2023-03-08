@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/tests/fuzzers/les"
+	"github.com/tenderly/bor/tests/fuzzers/les"
 )
 
 func main() {

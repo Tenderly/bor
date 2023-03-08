@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tenderly/bor/go-ethereum/node"
+	"github.com/tenderly/bor/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

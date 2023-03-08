@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/consensus/ethash"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/eth/downloader"
-	"github.com/tenderly/bor/go-ethereum/eth/gasprice"
-	"github.com/tenderly/bor/go-ethereum/miner"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/eth/downloader"
+	"github.com/tenderly/bor/eth/gasprice"
+	"github.com/tenderly/bor/miner"
+	"github.com/tenderly/bor/params"
 )
 
 // MarshalTOML marshals as TOML.

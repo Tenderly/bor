@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

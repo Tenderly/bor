@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

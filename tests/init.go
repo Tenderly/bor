@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/params"
 )
 
 // Forks table defines supported forks and their chain config.

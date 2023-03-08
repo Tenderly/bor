@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/vm"
 )
 
 const (

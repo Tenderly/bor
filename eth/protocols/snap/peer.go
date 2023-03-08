@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/p2p"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

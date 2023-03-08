@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

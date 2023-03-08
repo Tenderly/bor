@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/core/vm"
+	"github.com/tenderly/bor/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

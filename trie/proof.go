@@ -21,10 +21,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/ethdb/memorydb"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/ethdb/memorydb"
+	"github.com/tenderly/bor/log"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

@@ -24,19 +24,19 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/consensus"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/api"
-	"github.com/tenderly/bor/go-ethereum/consensus/bor/valset"
-	"github.com/tenderly/bor/go-ethereum/consensus/clique"
-	"github.com/tenderly/bor/go-ethereum/consensus/ethash"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/core/types"
-	"github.com/tenderly/bor/go-ethereum/core/vm"
-	"github.com/tenderly/bor/go-ethereum/params"
-	"github.com/tenderly/bor/go-ethereum/tests/bor/mocks"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/consensus/bor"
+	"github.com/tenderly/bor/consensus/bor/api"
+	"github.com/tenderly/bor/consensus/bor/valset"
+	"github.com/tenderly/bor/consensus/clique"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/tests/bor/mocks"
 )
 
 func TestGenerateBlockAndImportEthash(t *testing.T) {

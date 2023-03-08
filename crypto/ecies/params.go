@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/tenderly/bor/go-ethereum/crypto"
+	ethcrypto "github.com/tenderly/bor/crypto"
 )
 
 var (

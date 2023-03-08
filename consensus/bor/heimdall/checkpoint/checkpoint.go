@@ -3,7 +3,7 @@ package checkpoint
 import (
 	"math/big"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // Checkpoint defines a response object type of bor checkpoint

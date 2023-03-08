@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/enr"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

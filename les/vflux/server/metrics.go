@@ -17,7 +17,7 @@
 package server
 
 import (
-	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/metrics"
 )
 
 var (

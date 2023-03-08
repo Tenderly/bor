@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/mclock"
-	"github.com/tenderly/bor/go-ethereum/les/utils"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
+	"github.com/tenderly/bor/common/mclock"
+	"github.com/tenderly/bor/les/utils"
+	"github.com/tenderly/bor/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

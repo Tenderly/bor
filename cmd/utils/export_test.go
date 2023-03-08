@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

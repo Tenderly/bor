@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/p2p/simulations/pipes"
+	"github.com/tenderly/bor/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

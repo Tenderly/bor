@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/tests/fuzzers/vflux"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/tests/fuzzers/vflux"
 )
 
 func main() {

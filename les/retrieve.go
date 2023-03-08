@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/light"
+	"github.com/tenderly/bor/light"
 )
 
 var (

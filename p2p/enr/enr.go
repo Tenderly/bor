@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

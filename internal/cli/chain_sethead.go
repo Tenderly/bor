@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/internal/cli/flagset"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/server/proto"
+	"github.com/tenderly/bor/internal/cli/flagset"
+	"github.com/tenderly/bor/internal/cli/server/proto"
 )
 
 // ChainSetHeadCommand is the command to group the peers commands

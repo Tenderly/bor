@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/crypto"
-	"github.com/tenderly/bor/go-ethereum/p2p/discover"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/cmd/devp2p/internal/v4test"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/p2p/discover"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -3,7 +3,7 @@ package cli
 import (
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/params"
 
 	"github.com/mitchellh/cli"
 )

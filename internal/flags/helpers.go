@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

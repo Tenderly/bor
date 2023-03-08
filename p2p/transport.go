@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/bitutil"
-	"github.com/tenderly/bor/go-ethereum/metrics"
-	"github.com/tenderly/bor/go-ethereum/p2p/rlpx"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/bitutil"
+	"github.com/tenderly/bor/metrics"
+	"github.com/tenderly/bor/p2p/rlpx"
+	"github.com/tenderly/bor/rlp"
 )
 
 const (

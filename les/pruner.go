@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/math"
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

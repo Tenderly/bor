@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // Genesis hashes to enforce below configs on.

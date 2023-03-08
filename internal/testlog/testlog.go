@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

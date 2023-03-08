@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/hexutil"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type Log -field-override logMarshaling -out gen_log_json.go

@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

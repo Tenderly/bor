@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tenderly/bor/go-ethereum/accounts"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/flagset"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/internal/cli/flagset"
 )
 
 type AccountListCommand struct {

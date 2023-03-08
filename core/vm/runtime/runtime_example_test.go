@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/vm/runtime"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/vm/runtime"
 )
 
 func ExampleExecute() {

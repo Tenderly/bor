@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/eth/ethconfig"
+	"github.com/tenderly/bor/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

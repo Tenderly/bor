@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

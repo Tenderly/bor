@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/rlp/internal/rlpstruct"
+	"github.com/tenderly/bor/rlp/internal/rlpstruct"
 )
 
 //lint:ignore ST1012 EOL is not an error.

@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 func TestFacebook(t *testing.T) {

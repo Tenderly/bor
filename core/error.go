@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/tenderly/bor/go-ethereum/core/types"
+	"github.com/tenderly/bor/core/types"
 )
 
 var (

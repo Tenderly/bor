@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/accounts/keystore"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/console/prompt"
-	"github.com/tenderly/bor/go-ethereum/p2p/dnsdisc"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/console/prompt"
+	"github.com/tenderly/bor/p2p/dnsdisc"
+	"github.com/tenderly/bor/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/tenderly/bor/go-ethereum/issues"
-!define UPDATEURL "https://github.com/tenderly/bor/go-ethereum/releases"
-!define ABOUTURL "https://github.com/tenderly/bor/go-ethereum#ethereum-go"
+!define HELPURL "https://github.com/tenderly/bor/issues"
+!define UPDATEURL "https://github.com/tenderly/bor/releases"
+!define ABOUTURL "https://github.com/tenderly/bor#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 type AddrLocker struct {

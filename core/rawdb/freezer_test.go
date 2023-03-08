@@ -28,8 +28,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/rlp"
 	"github.com/stretchr/testify/require"
 )
 

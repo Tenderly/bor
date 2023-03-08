@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/common/math"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

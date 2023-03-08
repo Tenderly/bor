@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tenderly/bor/go-ethereum/eth/protocols/eth"
-	"github.com/tenderly/bor/go-ethereum/p2p"
+	"github.com/tenderly/bor/eth/protocols/eth"
+	"github.com/tenderly/bor/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/tenderly/bor/go-ethereum/core/vm/runtime"
+	"github.com/tenderly/bor/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

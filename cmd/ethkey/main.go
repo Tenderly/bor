@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tenderly/bor/go-ethereum/internal/flags"
+	"github.com/tenderly/bor/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

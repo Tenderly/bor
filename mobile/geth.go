@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/tenderly/bor/go-ethereum/core"
-	"github.com/tenderly/bor/go-ethereum/eth/downloader"
-	"github.com/tenderly/bor/go-ethereum/eth/ethconfig"
-	"github.com/tenderly/bor/go-ethereum/ethclient"
-	"github.com/tenderly/bor/go-ethereum/ethstats"
-	"github.com/tenderly/bor/go-ethereum/internal/debug"
-	"github.com/tenderly/bor/go-ethereum/les"
-	"github.com/tenderly/bor/go-ethereum/node"
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/p2p/nat"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/eth/downloader"
+	"github.com/tenderly/bor/eth/ethconfig"
+	"github.com/tenderly/bor/ethclient"
+	"github.com/tenderly/bor/ethstats"
+	"github.com/tenderly/bor/internal/debug"
+	"github.com/tenderly/bor/les"
+	"github.com/tenderly/bor/node"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/nat"
+	"github.com/tenderly/bor/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

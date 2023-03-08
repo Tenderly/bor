@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tenderly/bor/go-ethereum/event"
+	"github.com/tenderly/bor/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/bitutil"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
+	"github.com/tenderly/bor/common/bitutil"
+	"github.com/tenderly/bor/core/rawdb"
 )
 
 const (

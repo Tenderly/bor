@@ -23,12 +23,12 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/ethdb/leveldb"
-	"github.com/tenderly/bor/go-ethereum/ethdb/memorydb"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/ethdb/leveldb"
+	"github.com/tenderly/bor/ethdb/memorydb"
+	"github.com/tenderly/bor/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

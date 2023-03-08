@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/rawdb"
-	"github.com/tenderly/bor/go-ethereum/les/downloader"
-	"github.com/tenderly/bor/go-ethereum/light"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/les/downloader"
+	"github.com/tenderly/bor/light"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

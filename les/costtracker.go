@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/mclock"
-	"github.com/tenderly/bor/go-ethereum/eth/ethconfig"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/les/flowcontrol"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/metrics"
+	"github.com/tenderly/bor/common/mclock"
+	"github.com/tenderly/bor/eth/ethconfig"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/les/flowcontrol"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

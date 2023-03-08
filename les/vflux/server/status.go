@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/tenderly/bor/go-ethereum/p2p/nodestate"
+	"github.com/tenderly/bor/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

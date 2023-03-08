@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/core/state/snapshot"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/state/snapshot"
+	"github.com/tenderly/bor/rlp"
 )
 
 // Constants to match up protocol versions and messages

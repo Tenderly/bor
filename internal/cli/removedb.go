@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/flagset"
-	"github.com/tenderly/bor/go-ethereum/internal/cli/server"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/node"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/internal/cli/flagset"
+	"github.com/tenderly/bor/internal/cli/server"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/node"
 
 	"github.com/mitchellh/cli"
 )

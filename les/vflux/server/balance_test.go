@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/common/mclock"
-	"github.com/tenderly/bor/go-ethereum/ethdb"
-	"github.com/tenderly/bor/go-ethereum/ethdb/memorydb"
-	"github.com/tenderly/bor/go-ethereum/les/utils"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/p2p/enr"
-	"github.com/tenderly/bor/go-ethereum/p2p/nodestate"
+	"github.com/tenderly/bor/common/mclock"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/ethdb/memorydb"
+	"github.com/tenderly/bor/les/utils"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/enr"
+	"github.com/tenderly/bor/p2p/nodestate"
 )
 
 type zeroExpirer struct{}

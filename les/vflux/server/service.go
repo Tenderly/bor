@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/les/utils"
-	"github.com/tenderly/bor/go-ethereum/les/vflux"
-	"github.com/tenderly/bor/go-ethereum/log"
-	"github.com/tenderly/bor/go-ethereum/p2p/enode"
-	"github.com/tenderly/bor/go-ethereum/rlp"
+	"github.com/tenderly/bor/les/utils"
+	"github.com/tenderly/bor/les/vflux"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/rlp"
 )
 
 type (

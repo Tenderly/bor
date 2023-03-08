@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tenderly/bor/go-ethereum/p2p"
-	"github.com/tenderly/bor/go-ethereum/rpc"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/rpc"
 )
 
 type gethrpc struct {
