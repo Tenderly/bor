@@ -23,11 +23,11 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/consensus/misc"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/params"
 )
 
 // VerifyEIP1559Header verifies some header attributes which were changed in EIP-1559,

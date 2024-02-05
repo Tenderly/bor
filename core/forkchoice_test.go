@@ -4,12 +4,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/trie"
 
 	"github.com/stretchr/testify/require"
 )

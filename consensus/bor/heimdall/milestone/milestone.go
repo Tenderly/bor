@@ -3,7 +3,7 @@ package milestone
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // milestone defines a response object type of bor milestone

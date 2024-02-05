@@ -6,15 +6,15 @@ import (
 	"math"
 	"math/big"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	ethereum "github.com/tenderly/bor"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/params"
 )
 
 var systemAddress = common.HexToAddress("0xffffFFFfFFffffffffffffffFfFFFfffFFFfFFfE")

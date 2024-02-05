@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/tenderly/bor
 
 go 1.21
 
@@ -191,7 +191,9 @@ require (
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
 	github.com/cosmos/ledger-cosmos-go v0.13.0 // indirect
+	github.com/deckarep/golang-set v1.8.0 // indirect
 	github.com/etcd-io/bbolt v1.3.3 // indirect
+	github.com/ethereum/go-ethereum v1.10.26 // indirect
 	github.com/gammazero/deque v0.2.1 // indirect
 	github.com/go-kit/kit v0.12.0 // indirect
 	github.com/go-kit/log v0.2.1 // indirect
@@ -222,6 +224,7 @@ require (
 	github.com/posener/complete v1.2.3 // indirect
 	github.com/rakyll/statik v0.1.7 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
+	github.com/rjeczalik/notify v0.9.2 // indirect
 	github.com/spf13/afero v1.9.2 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/cobra v1.5.0 // indirect
@@ -272,7 +275,7 @@ replace github.com/tendermint/tendermint => github.com/maticnetwork/tendermint v
 
 replace github.com/tendermint/tm-db => github.com/tendermint/tm-db v0.2.0
 
-replace github.com/ethereum/go-ethereum => github.com/maticnetwork/bor v1.0.6
+replace github.com/tenderly/bor => github.com/maticnetwork/bor v1.0.6
 
 replace github.com/Masterminds/goutils => github.com/Masterminds/goutils v1.1.1
 

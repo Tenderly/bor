@@ -23,12 +23,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	cmath "github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/consensus/misc/eip4844"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/params"
 )
 
 // ExecutionResult includes all output after executing given evm

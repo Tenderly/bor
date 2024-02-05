@@ -21,7 +21,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/tenderly/bor/internal/flags"
 )
 
 var ShowDeprecated = &cli.Command{

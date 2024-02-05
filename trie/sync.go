@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log" // nolint:typecheck
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/prque"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/log" // nolint:typecheck
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

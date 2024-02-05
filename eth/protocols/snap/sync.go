@@ -31,19 +31,19 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/light"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/p2p/msgrate"
+	"github.com/tenderly/bor/rlp"
+	"github.com/tenderly/bor/trie"
 )
 
 const (

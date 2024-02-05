@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/txpool"
+	"github.com/tenderly/bor/metrics"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/enr"
+	"github.com/tenderly/bor/params"
 )
 
 const (

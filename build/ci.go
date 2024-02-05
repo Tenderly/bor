@@ -53,10 +53,10 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/signify"
-	"github.com/ethereum/go-ethereum/internal/build"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/crypto/signify"
+	"github.com/tenderly/bor/internal/build"
+	"github.com/tenderly/bor/params"
 )
 
 var (

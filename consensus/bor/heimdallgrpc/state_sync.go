@@ -5,8 +5,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus/bor/clerk"
 
 	proto "github.com/maticnetwork/polyproto/heimdall"
 )

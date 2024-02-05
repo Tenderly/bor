@@ -11,8 +11,8 @@ import (
 
 	"github.com/pelletier/go-toml"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/cli/server"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/internal/cli/server"
 )
 
 // YesFV: Both, Flags and their values has changed

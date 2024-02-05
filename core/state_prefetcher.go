@@ -20,11 +20,11 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

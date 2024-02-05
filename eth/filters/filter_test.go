@@ -24,17 +24,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/bor/accounts/abi"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus/ethash"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rpc"
+	"github.com/tenderly/bor/trie"
 )
 
 func makeReceipt(addr common.Address) *types.Receipt {

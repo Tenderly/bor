@@ -27,11 +27,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/console/prompt"
+	"github.com/tenderly/bor/p2p/dnsdisc"
+	"github.com/tenderly/bor/p2p/enode"
 )
 
 var (

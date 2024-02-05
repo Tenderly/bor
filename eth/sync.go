@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/eth/downloader"
+	"github.com/tenderly/bor/eth/protocols/eth"
+	"github.com/tenderly/bor/log"
 )
 
 const (

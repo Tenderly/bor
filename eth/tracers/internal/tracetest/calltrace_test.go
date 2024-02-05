@@ -25,17 +25,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/eth/tracers"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rlp"
+	"github.com/tenderly/bor/tests"
 )
 
 type callContext struct {

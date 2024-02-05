@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/eth/tracers"
+	"github.com/tenderly/bor/params"
 )
 
 type account struct{}

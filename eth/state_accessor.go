@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/eth/tracers"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/trie"
 )
 
 // noopReleaser is returned in case there is no operation expected

@@ -25,18 +25,18 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/state/pruner"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/state/pruner"
+	"github.com/tenderly/bor/core/state/snapshot"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/internal/flags"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/rlp"
+	"github.com/tenderly/bor/trie"
 )
 
 var (

@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/beacon/engine"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/eth"
+	"github.com/tenderly/bor/eth/downloader"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/miner"
+	"github.com/tenderly/bor/node"
+	"github.com/tenderly/bor/rpc"
 )
 
 // Register adds the engine API to the full node.

@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

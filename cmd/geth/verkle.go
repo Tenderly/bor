@@ -26,11 +26,11 @@ import (
 	"github.com/gballet/go-verkle"
 	cli "github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/internal/flags"
+	"github.com/tenderly/bor/log"
 )
 
 var (

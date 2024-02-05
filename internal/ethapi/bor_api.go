@@ -3,10 +3,10 @@ package ethapi
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/rpc"
 )
 
 // GetRootHash returns root hash for given start and end block

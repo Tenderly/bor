@@ -21,8 +21,8 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/rlp"
 )
 
 // hasher is a type used for the trie Hash operation. A hasher has some

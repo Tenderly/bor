@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

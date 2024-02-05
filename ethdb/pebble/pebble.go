@@ -30,10 +30,10 @@ import (
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/bloom"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/metrics"
 )
 
 const (
@@ -196,7 +196,7 @@ func New(file string, cache int, handles int, namespace string, readonly bool) (
 			WriteStallEnd:   db.onWriteStallEnd,
 		},
 	}
-	// Disable seek compaction explicitly. Check https://github.com/ethereum/go-ethereum/pull/20130
+	// Disable seek compaction explicitly. Check https://github.com/tenderly/bor/pull/20130
 	// for more details.
 	opt.Experimental.ReadSamplingMultiplier = -1
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/event"
 )
 
 // GetRootHash returns root hash for given start and end block

@@ -6,7 +6,7 @@ import (
 
 	"github.com/emirpasic/gods/maps/treemap"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 const FlagDone = 0

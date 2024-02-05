@@ -7,7 +7,7 @@ import (
 
 	"github.com/heimdalr/dag"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 )
 
 type DAG struct {

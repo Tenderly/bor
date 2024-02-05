@@ -26,11 +26,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

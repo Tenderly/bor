@@ -32,16 +32,16 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/maticnetwork/crand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/rawdb"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/txpool"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/trie"
 )
 
 var (

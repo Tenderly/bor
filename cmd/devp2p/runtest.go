@@ -21,9 +21,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/bor/cmd/devp2p/internal/v4test"
+	"github.com/tenderly/bor/internal/utesting"
+	"github.com/tenderly/bor/log"
 )
 
 var (

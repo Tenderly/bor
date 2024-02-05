@@ -22,28 +22,28 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"google.golang.org/grpc"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/consensus/beacon" //nolint:typecheck
-	"github.com/ethereum/go-ethereum/consensus/bor"    //nolint:typecheck
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/graphql"
-	"github.com/ethereum/go-ethereum/internal/cli/server/pprof"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/metrics/influxdb"
-	"github.com/ethereum/go-ethereum/metrics/prometheus"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/tenderly/bor/accounts"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/consensus/beacon" //nolint:typecheck
+	"github.com/tenderly/bor/consensus/bor"    //nolint:typecheck
+	"github.com/tenderly/bor/consensus/clique"
+	"github.com/tenderly/bor/eth"
+	"github.com/tenderly/bor/eth/ethconfig"
+	"github.com/tenderly/bor/eth/tracers"
+	"github.com/tenderly/bor/ethstats"
+	"github.com/tenderly/bor/graphql"
+	"github.com/tenderly/bor/internal/cli/server/pprof"
+	"github.com/tenderly/bor/internal/cli/server/proto"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/metrics"
+	"github.com/tenderly/bor/metrics/influxdb"
+	"github.com/tenderly/bor/metrics/prometheus"
+	"github.com/tenderly/bor/node"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/tenderly/bor/eth/tracers/js"
+	_ "github.com/tenderly/bor/eth/tracers/native"
 )
 
 type Server struct {

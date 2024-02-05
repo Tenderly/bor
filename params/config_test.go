@@ -24,7 +24,7 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/tenderly/bor/common/math"
 )
 
 func TestCheckCompatible(t *testing.T) {

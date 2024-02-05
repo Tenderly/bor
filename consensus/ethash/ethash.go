@@ -21,9 +21,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/rpc"
 )
 
 // Ethash is a consensus engine based on proof-of-work implementing the ethash

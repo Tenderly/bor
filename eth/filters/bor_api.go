@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/tenderly/bor"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rpc"
 )
 
 // SetChainConfig sets chain config

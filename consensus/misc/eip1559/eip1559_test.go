@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/params"
 )
 
 // copyConfig does a _shallow_ copy of a given config. Safe to set new values, but

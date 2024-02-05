@@ -22,8 +22,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/internal/version"
+	"github.com/tenderly/bor/params"
 )
 
 // NewApp creates an app with sane defaults.

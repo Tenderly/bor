@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 var randomness = rand.Intn(10) + 10

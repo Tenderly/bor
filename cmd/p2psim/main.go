@@ -46,13 +46,13 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/internal/flags"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/p2p/simulations"
+	"github.com/tenderly/bor/p2p/simulations/adapters"
+	"github.com/tenderly/bor/rpc"
 )
 
 var client *simulations.Client

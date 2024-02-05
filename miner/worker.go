@@ -36,24 +36,24 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/common/tracing"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/bor"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/blockstm"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/bor/common"
+	cmath "github.com/tenderly/bor/common/math"
+	"github.com/tenderly/bor/common/tracing"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/consensus/bor"
+	"github.com/tenderly/bor/consensus/misc/eip1559"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/core/blockstm"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/txpool"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/event"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/metrics"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rlp"
+	"github.com/tenderly/bor/trie"
 )
 
 const (
@@ -1671,7 +1671,7 @@ func (w *worker) commit(ctx context.Context, env *environment, interval func(), 
 			interval()
 		}
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/ethereum/go-ethereum/issues/24299
+		// https://github.com/tenderly/bor/issues/24299
 		env := env.copy()
 		// Withdrawals are set to nil here, because this is only called in PoW.
 		block, err := w.engine.FinalizeAndAssemble(ctx, w.chain, env.header, env.state, env.txs, nil, env.receipts, nil)

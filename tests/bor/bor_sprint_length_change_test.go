@@ -15,19 +15,19 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/bor/accounts/keystore"
+	"github.com/tenderly/bor/common/fdlimit"
+	"github.com/tenderly/bor/core"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/eth"
+	"github.com/tenderly/bor/eth/downloader"
+	"github.com/tenderly/bor/eth/ethconfig"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/miner"
+	"github.com/tenderly/bor/node"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/enode"
+	"github.com/tenderly/bor/params"
 )
 
 var (

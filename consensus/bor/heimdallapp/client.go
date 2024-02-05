@@ -3,7 +3,7 @@ package heimdallapp
 import (
 	"github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/bor/log"
 
 	"github.com/maticnetwork/heimdall/app"
 	"github.com/maticnetwork/heimdall/cmd/heimdalld/service"

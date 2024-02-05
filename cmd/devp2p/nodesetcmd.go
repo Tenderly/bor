@@ -27,10 +27,10 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/bor/core/forkid"
+	"github.com/tenderly/bor/p2p/enr"
+	"github.com/tenderly/bor/params"
+	"github.com/tenderly/bor/rlp"
 )
 
 var (

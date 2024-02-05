@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/tenderly/bor/beacon/merkle"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/common/hexutil"
 	"gopkg.in/yaml.v3"
 )
 

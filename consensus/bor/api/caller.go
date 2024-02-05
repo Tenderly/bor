@@ -3,10 +3,10 @@ package api
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/bor/common/hexutil"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/internal/ethapi"
+	"github.com/tenderly/bor/rpc"
 )
 
 //go:generate mockgen -destination=./caller_mock.go -package=api . Caller

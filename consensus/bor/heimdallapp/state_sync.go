@@ -6,7 +6,7 @@ import (
 
 	"github.com/maticnetwork/heimdall/clerk/types"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
+	"github.com/tenderly/bor/consensus/bor/clerk"
 )
 
 func (h *HeimdallAppClient) StateSyncEvents(ctx context.Context, fromID uint64, to int64) ([]*clerk.EventRecordWithTime, error) {

@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus"
+	"github.com/tenderly/bor/core/types"
+	"github.com/tenderly/bor/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

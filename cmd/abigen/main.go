@@ -26,12 +26,12 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/bor/accounts/abi/bind"
+	"github.com/tenderly/bor/cmd/utils"
+	"github.com/tenderly/bor/common/compiler"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/internal/flags"
+	"github.com/tenderly/bor/log"
 )
 
 var (

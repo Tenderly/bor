@@ -3,11 +3,11 @@ package bor
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	"github.com/ethereum/go-ethereum/consensus/bor/statefull"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/consensus/bor/clerk"
+	"github.com/tenderly/bor/consensus/bor/statefull"
+	"github.com/tenderly/bor/core/state"
+	"github.com/tenderly/bor/core/types"
 )
 
 //go:generate mockgen -destination=./genesis_contract_mock.go -package=bor . GenesisContract

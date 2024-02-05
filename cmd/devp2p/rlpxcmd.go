@@ -23,11 +23,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/bor/cmd/devp2p/internal/ethtest"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/p2p"
+	"github.com/tenderly/bor/p2p/rlpx"
+	"github.com/tenderly/bor/rlp"
 )
 
 var (

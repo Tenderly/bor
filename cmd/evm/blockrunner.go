@@ -24,10 +24,10 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/tenderly/bor/core/vm"
+	"github.com/tenderly/bor/eth/tracers/logger"
+	"github.com/tenderly/bor/log"
+	"github.com/tenderly/bor/tests"
 )
 
 var blockTestCommand = &cli.Command{

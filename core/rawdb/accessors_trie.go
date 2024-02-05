@@ -22,10 +22,10 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/crypto"
+	"github.com/tenderly/bor/ethdb"
+	"github.com/tenderly/bor/log"
 )
 
 // HashScheme is the legacy hash-based state scheme with which trie nodes are

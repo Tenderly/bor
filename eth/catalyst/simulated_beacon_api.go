@@ -19,8 +19,8 @@ package catalyst
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/bor/common"
+	"github.com/tenderly/bor/core/types"
 )
 
 type api struct {

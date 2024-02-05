@@ -24,8 +24,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/tenderly/bor/cmd/evm/internal/t8ntool"
+	"github.com/tenderly/bor/internal/flags"
 )
 
 var (

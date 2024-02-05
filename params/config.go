@@ -22,7 +22,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/bor/common"
 )
 
 // Genesis hashes to enforce below configs on.
